@@ -67,20 +67,24 @@ h1 img {
 }
 
 #top-box {
-    width: -moz-available;
+    /* width: -moz-available; */
     height: 160px;
     font-size: 50px;
     text-align: right;
     border: 0;
     padding: 22px 40px;
     outline: none;
-    width: 300px;
     background-color: transparent;
     letter-spacing: 3px;
     font-family: courier;
     color: white;
     background-color: #66a0d0;
     font-weight: 440;
+
+    width: 100%
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center */
 }
 
 #button-1{
@@ -175,7 +179,7 @@ button:active {
 
     #top-box {
         font-size: 40px;
-        padding: 18px 30px;
+        padding: 18px 0px;
     }
 }
 
@@ -201,7 +205,7 @@ button:active {
 
     #top-box {
         font-size: 37px;
-        padding: 18px 30px;
+        padding: 18px 0px;
     }
 }
 
@@ -244,6 +248,6 @@ button:active {
 
     #top-box {
         font-size: 42px;
-        padding: 18px 25px;
+        padding: 18px 0px;
     }
 }
